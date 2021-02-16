@@ -7,7 +7,7 @@ module.exports = {
     MissingIdentityTokenException: require('./src/exceptions/MissingIdentityToken.exception'),
     MissingRefreshTokenException: require('./src/exceptions/MissingRefreshToken.exception'),
 
-    ConfirmPassaword: require('./src/middlewares/confirm-password.middleware'),
+    ConfirmPassword: require('./src/middlewares/confirm-password.middleware'),
     HasPassword: require('./src/middlewares/has-password.middleware'),
     Password8LengthMin: require('./src/middlewares/password-8-length-min.middleware'),
     ValidEmail: require('./src/middlewares/valid-email.middleware')
