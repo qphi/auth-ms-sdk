@@ -11,5 +11,8 @@ module.exports = {
     HasPassword: require('./src/middlewares/has-password.middleware'),
     Password8LengthMin: require('./src/middlewares/password-8-length-min.middleware'),
     ValidEmail: require('./src/middlewares/valid-email.middleware'),
-    JwtVerifierService: require('./src/services/jwt-verifier.service')
+
+    JwtVerifierService: require('./src/services/jwt-verifier.service'),
+
+    UserRequestHandler: require('./src/API/user-request.helper')
 };
