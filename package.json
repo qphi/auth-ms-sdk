@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/qphi/auth-ms-sdk/issues"
   },
+  "dependencies": {
+    "jsonwebtoken": "^8.5.1"
+  },
   "homepage": "https://github.com/qphi/auth-ms-sdk#readme"
 }
